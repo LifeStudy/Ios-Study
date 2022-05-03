@@ -17,6 +17,7 @@
 		7ED1090A280F882400EFE8E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ED10908280F882400EFE8E8 /* Main.storyboard */; };
 		7ED1090C280F882600EFE8E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ED1090B280F882600EFE8E8 /* Assets.xcassets */; };
 		7ED1090F280F882600EFE8E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ED1090D280F882600EFE8E8 /* LaunchScreen.storyboard */; };
+		CE19F452282065C900CAE6E7 /* AddCoffeeOrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE19F451282065C900CAE6E7 /* AddCoffeeOrderViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		7ED1090B280F882600EFE8E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7ED1090E280F882600EFE8E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7ED10910280F882600EFE8E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE19F451282065C900CAE6E7 /* AddCoffeeOrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoffeeOrderViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				7E196AB12813A06400B934D5 /* OrderViewModel.swift */,
+				CE19F451282065C900CAE6E7 /* AddCoffeeOrderViewModel.swift */,
 			);
 			path = "View Models";
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E196AAF28139BF900B934D5 /* Order.swift in Sources */,
+				CE19F452282065C900CAE6E7 /* AddCoffeeOrderViewModel.swift in Sources */,
 				7ED10903280F882400EFE8E8 /* AppDelegate.swift in Sources */,
 				7E196AAC281399AB00B934D5 /* WebServices.swift in Sources */,
 				7ED10905280F882400EFE8E8 /* SceneDelegate.swift in Sources */,
