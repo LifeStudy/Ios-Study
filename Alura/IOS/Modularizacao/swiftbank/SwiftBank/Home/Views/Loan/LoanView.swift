@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SBLoan
 
 struct LoanView: View {
     
@@ -16,27 +17,28 @@ struct LoanView: View {
                                       blue: 243.0/255.0)
     
     var body: some View {
-        Button {
-            print("empréstimos")
-        } label: {
-            RoundedRectangle(cornerRadius: 7)
-                .frame(maxWidth: .infinity)
-                .frame(height: 100)
-                .foregroundColor(.white)
-                .clipShape(RoundedRectangle(cornerRadius: 7))
-                .shadow(color: Color.gray.opacity(0.5), radius: 7, x: 0, y: 2)
-                .overlay(
-                    VStack(alignment: .leading) {
-                        header
-                            .padding(.top, 20)
-                            .padding(.horizontal)
-                        textMessage
-                            .padding(.horizontal)
-                        Spacer()
-                    }
-                )
-        }
-
+        RoundedRectangle(cornerRadius: 7)
+            .frame(maxWidth: .infinity)
+            .frame(height: 80)
+            .foregroundColor(.white)
+            .clipShape(RoundedRectangle(cornerRadius: 7))
+            .shadow(color: Color.gray.opacity(0.5), radius: 7, x: 0, y: 2)
+            .overlay(
+                VStack(alignment: .leading) {
+                    header
+                        .padding(.top, 20)
+                        .padding(.horizontal)
+                    textMessage
+                        .padding(.horizontal)
+                    Spacer()
+                }
+            )
+            .background(
+                NavigationLink(destination: SBLoanView(), label:{
+                    EmptyView()
+                })
+            )
+        
     }
     
     var header: some View {

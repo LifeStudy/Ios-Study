@@ -336,6 +336,77 @@
 			};
 			name = Release;
 		};
+		4D18069B424A1CA49D08A5FC150FB80B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 596D1C4746DB705FB33548B19E99F57C /* SBLoan.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SBLoan/SBLoan-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SBLoan/SBLoan-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SBLoan/SBLoan.modulemap";
+				PRODUCT_MODULE_NAME = SBLoan;
+				PRODUCT_NAME = SBLoan;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		66039A8571A229966795262B28E4A1F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6D11A9F124C7AA8DBD37D5405A233DD /* SBLoan.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SBLoan/SBLoan-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SBLoan/SBLoan-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SBLoan/SBLoan.modulemap";
+				PRODUCT_MODULE_NAME = SBLoan;
+				PRODUCT_NAME = SBLoan;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		7C3FBC45C4966EFE20583918767EFBE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -439,77 +510,6 @@
 			};
 			name = Debug;
 		};
-		8FB4795EC3D62B0EE942D263060CA8B3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D6D11A9F124C7AA8DBD37D5405A233DD /* SBLoan.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SBLoan/SBLoan-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SBLoan/SBLoan-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SBLoan/SBLoan.modulemap";
-				PRODUCT_MODULE_NAME = SBLoan;
-				PRODUCT_NAME = SBLoan;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C70718FD41BA60AC5C3B8D9B631AB65A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 596D1C4746DB705FB33548B19E99F57C /* SBLoan.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SBLoan/SBLoan-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SBLoan/SBLoan-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SBLoan/SBLoan.modulemap";
-				PRODUCT_MODULE_NAME = SBLoan;
-				PRODUCT_NAME = SBLoan;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		FF0A36149038A192FFD678E1D4A40D3B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -587,8 +587,8 @@
 		50193463407577DBE82A9748C8C29812 /* Build configuration list for PBXNativeTarget "SBLoan" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C70718FD41BA60AC5C3B8D9B631AB65A /* Debug */,
-				8FB4795EC3D62B0EE942D263060CA8B3 /* Release */,
+				4D18069B424A1CA49D08A5FC150FB80B /* Debug */,
+				66039A8571A229966795262B28E4A1F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
