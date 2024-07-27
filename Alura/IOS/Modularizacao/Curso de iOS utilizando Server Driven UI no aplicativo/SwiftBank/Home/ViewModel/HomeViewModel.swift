@@ -51,8 +51,11 @@ class HomeViewModel: ObservableObject {
                     throw RequestError.decode
                 }
                 sections.append(CreditCardSection(model: model))
-            case .loan:
-                break
+            case .genericSection:
+                guard let model: GenericSectionResponse = section.content.decode() else {
+                    throw RequestError.decode
+                }
+                sections.append(GenericSection(model: model))
             }
         }
         

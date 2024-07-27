@@ -95,10 +95,10 @@
 		03BD4AA82B3CB26000341CE2 /* SwiftBank */ = {
 			isa = PBXGroup;
 			children = (
-				03BD4AAD2B3CB26400341CE2 /* Assets.xcassets */,
 				03BD4AA92B3CB26000341CE2 /* SwiftBankApp.swift */,
 				03BD4AB72B3CB2F500341CE2 /* Home */,
 				03E5D8EF2B45E25100B9BC9A /* Networking */,
+				03BD4AAD2B3CB26400341CE2 /* Assets.xcassets */,
 				03BD4AAF2B3CB26400341CE2 /* Preview Content */,
 			);
 			path = SwiftBank;

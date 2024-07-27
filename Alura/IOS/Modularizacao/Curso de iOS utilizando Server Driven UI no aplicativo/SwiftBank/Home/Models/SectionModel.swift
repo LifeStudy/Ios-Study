@@ -16,7 +16,7 @@ private enum CodingKeys: CodingKey {
 enum SectionType: String, Decodable {
     case balance
     case creditCard = "credit_card"
-    case loan
+    case genericSection = "generic_section"
 }
 
 struct SectionModel: Decodable {

@@ -46,8 +46,8 @@ struct GenericView: View {
     var header: some View {
         VStack {
             HStack {
-                Text("Empréstimos")
-                    .font(.system(size: 16))
+                Text(genericResponse.title.text)
+                    .font(.system(size: CGFloat(genericResponse.title.fontSize)))
                     .fontWeight(.medium)
                 Spacer()
                 Image(systemName: "chevron.right")
@@ -59,19 +59,11 @@ struct GenericView: View {
     
     var textMessage: some View {
         HStack {
-            Text("Simule seu crédito e antecipe seus planos!")
-                .font(.system(size: 12))
+            Text(genericResponse.subtitle.text)
+                .font(.system(size: CGFloat(genericResponse.subtitle.fontSize)))
                 .fontWeight(.light)
                 .lineSpacing(5)
                 .multilineTextAlignment(.leading)
         }
     }
 }
-/*
-struct LoanView_Previews: PreviewProvider {
-    static var previews: some View {
-        LoanView()
-            .previewLayout(.sizeThatFits)
-    }
-}
-*/
