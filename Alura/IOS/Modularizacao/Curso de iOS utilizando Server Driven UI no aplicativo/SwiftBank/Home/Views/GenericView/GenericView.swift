@@ -1,5 +1,5 @@
 //
-//  SavingsView.swift
+//  LoanView.swift
 //  SwiftBank
 //
 //  Created by Alura on 31/12/23.
@@ -7,7 +7,11 @@
 
 import SwiftUI
 
-struct SavingsView: View {
+struct GenericView: View {
+    
+    // MARK: - Attributes
+    
+    let genericResponse: GenericSectionResponse
     
     // MARK: - UI Components
     
@@ -17,7 +21,7 @@ struct SavingsView: View {
     
     var body: some View {
         Button {
-            print("poupança")
+            print("empréstimos")
         } label: {
             RoundedRectangle(cornerRadius: 7)
                 .frame(maxWidth: .infinity)
@@ -36,12 +40,13 @@ struct SavingsView: View {
                     }
                 )
         }
+
     }
     
     var header: some View {
         VStack {
             HStack {
-                Text("Poupança")
+                Text("Empréstimos")
                     .font(.system(size: 16))
                     .fontWeight(.medium)
                 Spacer()
@@ -54,7 +59,7 @@ struct SavingsView: View {
     
     var textMessage: some View {
         HStack {
-            Text("Guarde dinheiro e realize grandes sonhos.")
+            Text("Simule seu crédito e antecipe seus planos!")
                 .font(.system(size: 12))
                 .fontWeight(.light)
                 .lineSpacing(5)
@@ -62,10 +67,11 @@ struct SavingsView: View {
         }
     }
 }
-
-struct SavingsView_Previews: PreviewProvider {
+/*
+struct LoanView_Previews: PreviewProvider {
     static var previews: some View {
-        SavingsView()
+        LoanView()
             .previewLayout(.sizeThatFits)
     }
 }
+*/
