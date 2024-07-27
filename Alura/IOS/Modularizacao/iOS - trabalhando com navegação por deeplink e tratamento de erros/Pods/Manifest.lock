@@ -1,0 +1,21 @@
+PODS:
+  - SBLoan (1.1.0)
+
+DEPENDENCIES:
+  - SBLoan (from `https://github.com/AndriuCoelho/SBLoan.git`)
+
+EXTERNAL SOURCES:
+  SBLoan:
+    :git: https://github.com/AndriuCoelho/SBLoan.git
+
+CHECKOUT OPTIONS:
+  SBLoan:
+    :commit: 6650e4962d80c14935e30dc43735c02e8f7e42b5
+    :git: https://github.com/AndriuCoelho/SBLoan.git
+
+SPEC CHECKSUMS:
+  SBLoan: 81653e4c34bf26863843b7b61a27080840ed27b2
+
+PODFILE CHECKSUM: ff921bbb28734fde83c72d03c60ec894c10b6180
+
+COCOAPODS: 1.15.2

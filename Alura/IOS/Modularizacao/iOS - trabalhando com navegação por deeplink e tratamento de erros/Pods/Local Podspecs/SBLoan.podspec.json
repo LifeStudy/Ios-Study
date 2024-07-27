@@ -1,0 +1,24 @@
+{
+  "name": "SBLoan",
+  "version": "1.1.0",
+  "summary": "Módulo utilizado no aplicativo SwiftBank para funcionalidade de Empréstimos",
+  "description": "SBLoan é uma biblioteca que permite o usuário acessar sua carteira de crédito disponível",
+  "homepage": "https://github.com/AndriuCoelho/SBLoan",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "AndriuCoelho": "andriu_coelho1993@hotmail.com"
+  },
+  "source": {
+    "git": "https://github.com/AndriuCoelho/SBLoan.git",
+    "tag": "1.1.0"
+  },
+  "swift_versions": "5.0",
+  "platforms": {
+    "ios": "15.0"
+  },
+  "source_files": "Classes/**/*",
+  "swift_version": "5.0"
+}
