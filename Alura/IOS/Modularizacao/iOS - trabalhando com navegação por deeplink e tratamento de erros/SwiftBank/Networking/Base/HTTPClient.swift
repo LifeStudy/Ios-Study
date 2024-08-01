@@ -23,7 +23,7 @@ extension HTTPClient {
 //            return .failure(.invalidURL)
 //        }
         
-        let apiaryURL = URL(string: "https://private-f1a3f-swiftbankserverdriveui.apiary-mock.com/home")
+        let apiaryURL = URL(string: "https://private-38240b-bankswift.apiary-mock.com/home")
         
         guard let url = apiaryURL else {
             return .failure(.invalidURL)

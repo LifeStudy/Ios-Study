@@ -6,6 +6,6 @@ target 'SwiftBank' do
   use_frameworks!
 
   # Pods for SwiftBank
-  pod 'SBLoan', :git => 'https://github.com/AndriuCoelho/SBLoan.git'
+  pod 'SBLoan', :git => 'https://github.com/arjdev69/SBLoan.git'
 
 end
