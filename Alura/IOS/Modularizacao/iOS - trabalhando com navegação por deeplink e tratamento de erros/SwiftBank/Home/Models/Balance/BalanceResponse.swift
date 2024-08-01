@@ -26,5 +26,6 @@ struct BalanceResponse: Decodable {
         private(set) var id: String
         private(set) var title: TextModel
         private(set) var icon: String
+        private(set) var deeplink: String?
     }
 }
