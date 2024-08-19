@@ -1,6 +1,6 @@
 # SBLoan
 
-[![CI Status](https://img.shields.io/travis/matheusperezz/SBLoan.svg?style=flat)](https://travis-ci.org/matheusperezz/SBLoan)
+[![CI Status](https://img.shields.io/travis/6216736/SBLoan.svg?style=flat)](https://travis-ci.org/6216736/SBLoan)
 [![Version](https://img.shields.io/cocoapods/v/SBLoan.svg?style=flat)](https://cocoapods.org/pods/SBLoan)
 [![License](https://img.shields.io/cocoapods/l/SBLoan.svg?style=flat)](https://cocoapods.org/pods/SBLoan)
 [![Platform](https://img.shields.io/cocoapods/p/SBLoan.svg?style=flat)](https://cocoapods.org/pods/SBLoan)
@@ -22,7 +22,7 @@ pod 'SBLoan'
 
 ## Author
 
-Alura
+6216736, bruno96araujo@gmail.com
 
 ## License
 

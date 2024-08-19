@@ -2,20 +2,20 @@ PODS:
   - SBLoan (1.1.0)
 
 DEPENDENCIES:
-  - SBLoan (from `https://github.com/AndriuCoelho/SBLoan.git`)
+  - SBLoan (from `https://github.com/arjdev69/SBLoan.git`)
 
 EXTERNAL SOURCES:
   SBLoan:
-    :git: https://github.com/AndriuCoelho/SBLoan.git
+    :git: https://github.com/arjdev69/SBLoan.git
 
 CHECKOUT OPTIONS:
   SBLoan:
-    :commit: 6650e4962d80c14935e30dc43735c02e8f7e42b5
-    :git: https://github.com/AndriuCoelho/SBLoan.git
+    :commit: 88607bd8d644f4d392c63bb225e95ccd2d6927af
+    :git: https://github.com/arjdev69/SBLoan.git
 
 SPEC CHECKSUMS:
-  SBLoan: 81653e4c34bf26863843b7b61a27080840ed27b2
+  SBLoan: cbe30188e81737fbc004d1d471f54b5008d5d4da
 
-PODFILE CHECKSUM: ff921bbb28734fde83c72d03c60ec894c10b6180
+PODFILE CHECKSUM: 23c1e85c60e81f1719fcaa00b56d66d415f667c4
 
 COCOAPODS: 1.15.2

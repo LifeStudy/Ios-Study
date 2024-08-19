@@ -2,7 +2,7 @@
 //  SBLoanView.swift
 //  Pods
 //
-//  Created by ALURA on 26/01/24.
+//  Created by bruno araujo on 22/07/24.
 //
 
 import SwiftUI
