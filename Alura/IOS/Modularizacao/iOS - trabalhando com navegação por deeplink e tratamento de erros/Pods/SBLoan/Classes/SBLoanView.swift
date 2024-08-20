@@ -19,9 +19,13 @@ public struct SBLoanView: View {
                                     green: 186.0/255.0,
                                     blue: 5.0/255.0)
     
+    private(set) var amount: String
+    
     // MARK: - Init
     
-    public init() { }
+    public init(_ amount: String) {
+            self.amount = amount
+    }
     
     // MARK: - View
     
@@ -88,7 +92,7 @@ public struct SBLoanView: View {
     
     var headerCardView: some View {
         VStack(alignment: .leading) {
-            Text("Veja sua opção de crédito pré-aprovada:")
+            Text("Crédito pré-aprovada: \(amount)")
                 .font(.system(size: 16))
                 .foregroundColor(.black)
                 .fontWeight(.medium)
@@ -119,5 +123,5 @@ public struct SBLoanView: View {
 }
 
 #Preview {
-    SBLoanView()
+    SBLoanView("3000")
 }

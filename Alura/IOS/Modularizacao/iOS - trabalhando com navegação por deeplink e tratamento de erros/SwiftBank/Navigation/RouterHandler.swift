@@ -10,6 +10,7 @@ import Foundation
 enum DeeplinkURL: String {
     case loan = "loan"
     case pix = "pix"
+    case error = "error"
 }
 
 struct RouterHandler {
@@ -20,9 +21,16 @@ struct RouterHandler {
         
         switch DeeplinkURL(rawValue: host) {
         case .loan:
-            return .loan
+            let queryParameters = url.queryParameters
+            
+            let id = queryParameters?["id"] as? String ?? ""
+            let amount = queryParameters?["amount"] as? String ?? ""
+            
+            return .loan(id: id, amount: amount)
         case .pix:
             return .pix
+        case .error:
+            return .error
         default:
             return nil
         }

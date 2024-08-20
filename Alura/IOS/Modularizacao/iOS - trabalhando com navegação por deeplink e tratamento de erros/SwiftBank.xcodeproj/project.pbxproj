@@ -37,6 +37,8 @@
 		1896D9F62BADFA380021EFFE /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1896D9F52BADFA380021EFFE /* Route.swift */; };
 		1896D9F82BADFB250021EFFE /* PixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1896D9F72BADFB250021EFFE /* PixView.swift */; };
 		1896D9FA2BADFB8F0021EFFE /* RouterHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1896D9F92BADFB8F0021EFFE /* RouterHandler.swift */; };
+		7E2681052C741C0100C81560 /* GenericErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2681042C741C0100C81560 /* GenericErrorView.swift */; };
+		7E2681072C741CF200C81560 /* URLExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2681062C741CF200C81560 /* URLExtension.swift */; };
 		E0446C1DF043357E3B3B7BF7 /* Pods_SwiftBank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14BA423D88A03FA1C9A7A521 /* Pods_SwiftBank.framework */; };
 /* End PBXBuildFile section */
 
@@ -76,6 +78,8 @@
 		1896D9F72BADFB250021EFFE /* PixView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixView.swift; sourceTree = "<group>"; };
 		1896D9F92BADFB8F0021EFFE /* RouterHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterHandler.swift; sourceTree = "<group>"; };
 		4F207B06DFE9393FDCC52184 /* Pods-SwiftBank.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftBank.release.xcconfig"; path = "Target Support Files/Pods-SwiftBank/Pods-SwiftBank.release.xcconfig"; sourceTree = "<group>"; };
+		7E2681042C741C0100C81560 /* GenericErrorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericErrorView.swift; sourceTree = "<group>"; };
+		7E2681062C741CF200C81560 /* URLExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +172,7 @@
 		03E5D8E22B421EB400B9BC9A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				7E2681042C741C0100C81560 /* GenericErrorView.swift */,
 				03E5D8FF2B45F3C800B9BC9A /* HomeView.swift */,
 				03BD4ABB2B3CC70200341CE2 /* Balance */,
 				03E5D8DB2B40D76E00B9BC9A /* CreditCard */,
@@ -248,6 +253,7 @@
 		188629CE2B89150000DA3CCD /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				7E2681062C741CF200C81560 /* URLExtension.swift */,
 				188629CF2B89154400DA3CCD /* DictionaryDecodable.swift */,
 			);
 			path = Extensions;
@@ -426,9 +432,11 @@
 				03E5D8EE2B45E20F00B9BC9A /* HomeViewModel.swift in Sources */,
 				03E5D8FA2B45E50D00B9BC9A /* HTTPClient.swift in Sources */,
 				1896D9EE2BADF0D30021EFFE /* NavigationRouter.swift in Sources */,
+				7E2681072C741CF200C81560 /* URLExtension.swift in Sources */,
 				188629C52B88EC2000DA3CCD /* HomeModel.swift in Sources */,
 				188629D32B891C9000DA3CCD /* BalanceResponse.swift in Sources */,
 				188629DA2B8A287F00DA3CCD /* CreditCardResponse.swift in Sources */,
+				7E2681052C741C0100C81560 /* GenericErrorView.swift in Sources */,
 				03E5D8F42B45E32B00B9BC9A /* Endpoint.swift in Sources */,
 				03E5D8F62B45E48A00B9BC9A /* RequestMethod.swift in Sources */,
 				03BD4AAA2B3CB26000341CE2 /* SwiftBankApp.swift in Sources */,
