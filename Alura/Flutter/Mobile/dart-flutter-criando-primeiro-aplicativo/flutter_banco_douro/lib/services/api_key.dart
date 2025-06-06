@@ -1,0 +1,1 @@
+const String githubApiKey = "<sua_chave_aqui>";
